@@ -41,3 +41,8 @@ class B:
   `),
 ); // logs 3
 ```
+
+# Build and Bundle
+npm install
+npm run build 
+npx browserify ./dist/index.js --standalone pylint > dist/pylint.js
