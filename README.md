@@ -46,3 +46,4 @@ class B:
 npm install
 npm run build 
 npx browserify ./dist/index.js --standalone pylint > dist/pylint.js
+npx uglify-js ./dist/pylint.js --output ./dist/pylint.min.js 
